@@ -1,9 +1,10 @@
-import Head from "next/head"
 import { FC } from "react"
+import Head from "next/head"
 import { Navbar } from "../ui"
 
 
-export const Layout:FC = ({children}) => {
+export const Layout:FC = ({children}:any) => {
+  
   return (
     <>
         <Head>
